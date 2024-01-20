@@ -1,0 +1,375 @@
+
+/* Menú */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #432291;
+    height: auto;
+    width: 100%;
+    color: white;
+    font-family: Quicksand;
+    
+}
+
+hr{
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+#encabezado{
+    position: relative;
+    float: left;
+    height: 4%;
+    width: 100%;
+}
+
+/*Logo*/
+
+#logo{
+    width: 20%; /* Ajusta el tamaño del contenedor del logo */
+    height: 10px; /* Ajusta el tamaño del contenedor del logo */
+    padding-top: 15px;
+    padding-left: 23px;
+    position: relative;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+    height: 50px;
+}
+
+#logo a:hover{
+    background-color: none;
+}
+
+/*Menu*/
+
+#menu{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top:10px;
+}
+
+#menu a{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 15px;
+
+}
+
+#menu a:hover{
+    text-shadow: none;
+    color: #fff;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+/* Formulario */
+
+
+#formulario{
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#formulario form{
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 40px;
+}
+
+#formulario fieldset{
+    border: 1px solid white;
+}
+
+#formulario legend{
+    text-align: center;
+}
+
+#formulario label {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+   
+}
+
+#formulario input[type=text]{
+    width: 40%;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Typewriter";
+
+}
+
+#formulario input[type=submit]{
+    width: 30%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 35%;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Typewriter";
+}
+
+#enviar{
+    margin-bottom: 3%;
+}
+
+/* Colaboradores */
+
+#colaboradores{
+    margin-top: 10%;
+    position: relative;
+    float: left;
+    padding: 15px;
+    text-align: center;   
+    width: 100%; 
+}
+
+#colaboradores h2{
+    margin-top: 5%;
+
+}
+
+
+
+#colaboradores img{
+    position: relative;
+    float: left;
+    width: 17%;
+    height: 140px;
+    margin-left: 7%;
+    margin-top: 40px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    
+}
+
+/* Footer */
+
+#footer{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer h2{
+    margin-top:5%;
+    text-align: center;    
+}
+
+#footer hr{
+    margin-top: 3%;
+    width: 100%;
+}
+
+/* Iconos Awesome */
+
+/* Iconos Awesome */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: white;
+  }
+
+  .fa-spotify{
+    color: white;
+    background-color: green;
+  }
+
+  /* Media Query Telefono */
+  /*Pensado para el Samsung Galaxy S8+*/
+
+  @media all and (max-width: 750px) {
+    body{
+        background-color: #432291;
+        height: auto;
+        width: 100%;
+        color: white;
+        font-family: Quicksand;
+        
+    }
+
+    
+    /*Logo*/
+    
+    #logo{
+        width: 30%; /* Ajusta el tamaño del contenedor del logo */
+        height: 10px; /* Ajusta el tamaño del contenedor del logo */
+        padding-top: 15px;
+        padding-left: 23px;
+        position: relative;
+        float: left;
+    }
+    
+    #logo img{
+        width: 100%;
+        height: 50px;
+    }
+    
+    #logo a:hover{
+        background-color: none;
+    }
+
+    /*Menu*/
+    
+    #menu{
+        width: 60%;
+        margin-left: 40%;
+    }
+    
+    #menu a{
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        height: 60px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 10px;
+        font-size: 10px;
+    
+    }
+    
+    #menu a:hover{
+        text-shadow: none;
+        color: #fff;
+        background-color: purple;
+        border-radius: 20px;
+    }
+    
+    /* Imagen portada */
+    
+   
+    
+    #imagen img{
+        width: 100%;
+        height: 400px;
+    }
+    
+    
+    
+    
+
+ 
+    /* Iconos Awesome */
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 100px;
+        margin-left: 24px;
+        margin-top: 25px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+
+
+     /* Formulario */
+
+     #formulario{
+        position: relative;
+        float: left;
+        height: 500px;
+        width: 70%;
+        text-align: center;
+    }
+    
+    #formulario form{
+        width: 100%;
+        height: 100%;
+        color: white;
+      
+    }
+    
+    #formulario fieldset{
+        border: 1px solid white;
+    }
+    
+    
+    
+    #formulario label {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        font-weight: bold;
+        text-align: right;
+        padding: 20px;
+        font-size: 10px;
+       
+    }
+    
+   
+    }
+    
+    
+
+    #colaboradores img{
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 140px;
+        margin-left: 15%;
+        margin-top: 40px;
+        box-shadow: 0 0 5px black;
+        text-align: center;
+        
+    }
+
+  

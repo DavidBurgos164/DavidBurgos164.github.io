@@ -1,0 +1,486 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #432291;
+    height: auto;
+    width: 100%;
+    color: white;
+    font-family: Quicksand;
+    
+}
+
+hr{
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+#encabezado{
+    position: relative;
+    float: left;
+    height: 4%;
+    width: 100%;
+}
+
+/*Logo*/
+
+#logo{
+    width: 20%; /* Ajusta el tamaño del contenedor del logo */
+    height: 10px; /* Ajusta el tamaño del contenedor del logo */
+    padding-top: 15px;
+    padding-left: 23px;
+    position: relative;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+    height: 50px;
+}
+
+#logo a:hover{
+    background-color: none;
+}
+
+/*Menu*/
+
+#menu{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top:10px;
+}
+
+#menu a{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 15px;
+
+}
+
+#menu a:hover{
+    text-shadow: none;
+    color: #fff;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+/*Tienda*/
+
+#cabecera{
+    position: relative;
+    float: left;
+    height: 25%;
+    width: 100%;
+    
+}
+
+#cabecera img{
+    position: relative;
+    float: left;
+    opacity: 0.6;
+    width: 100%;
+    height: 300px;
+}
+.texto{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    top: 30%;
+    left: 25%;
+    margin-left: 20%;
+    opacity: 1;
+    z-index: 1;
+    text-shadow: 0px 0px 10px gray;
+}
+
+/*Recién llegados*/
+
+.titulo {
+    height: 25%;
+    width: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+.centro{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 20%;
+    margin-left: 5%;
+    padding: 60px;
+    background-color: paleturquoise;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.rect{
+    position: relative;
+    float: left; 
+    width: 50%;
+    height: 50%;
+    background-color: #604c8f;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.rect img{
+    width: 60%;
+    margin-left: 18%;
+}
+
+.rect a{
+    position: relative;
+    float: left;
+    color: white;
+    background-color: #432291;
+    width: 60%;
+    margin-left: 18%;
+    height: 30px;
+    padding: 5px;
+    
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+}
+    
+.rect a:hover{
+    color: #432291;
+    background-color: white;
+    font-weight: bolder;
+}
+
+/*tabla*/
+
+#tabla{
+    position: relative;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+  }
+  th {
+    background-color: #000000;
+  }
+
+ul{
+    position: relative;
+    float: left;
+}
+
+/*lista*/
+
+#lista{
+    position: relative;
+    float: left;
+    width: 55%;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+/*botones*/
+
+#botoncaja{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+ }
+ 
+ .boton{
+    position: relative;
+    float: center;
+     text-decoration: none;
+     text-align: center;
+     padding: 1%;
+     border-radius: 99px;
+     background-color: white;
+     color: #432291;
+     font-size:27px;
+     
+ }
+
+ .boton div, a:hover{
+     background-color: black;
+ }
+
+/*footer*/
+
+#footer{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer h2{
+    margin-top:5%;
+    text-align: center;    
+}
+
+#footer hr{
+    margin-top: 3%;
+    width: 100%;
+}
+
+/* Iconos Awesome */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: white;
+  }
+
+  .fa-spotify{
+    color: white;
+    background-color: green;
+  }
+
+/*Pensado para el Samsung Galaxy S8+*/
+
+  @media all and (max-width: 750px){
+    body{
+        background-color: #432291;
+        height: auto;
+        width: 100%;
+        color: white;
+        font-family: Quicksand;
+    }
+    
+   
+    #encabezado{
+        position: relative;
+        float: left;
+        height: 4%;
+        width: 100%;
+    }
+    
+    /*Logo*/
+    
+    #logo{
+        width: 30%; /* Ajusta el tamaño del contenedor del logo */
+        height: 10px; /* Ajusta el tamaño del contenedor del logo */
+        padding-top: 10px;
+        padding-left: 23px;
+        position: relative;
+        float: left;
+    }
+    
+    #logo img{
+        width: 100%;
+        height: 50px;
+    }
+    
+    #logo a:hover{
+        background-color: none;
+    }
+    
+    
+    /*Menu*/
+    
+    #menu{
+        width: 60%;
+        margin-left: 40%;
+    }
+    
+    #menu a{
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 10px;
+        font-size: 10px;
+    
+    }
+    
+    #menu a:hover{
+        text-shadow: none;
+        color: #fff;
+        background-color: purple;
+        border-radius: 20px;
+    }
+    
+    /*Tienda*/
+
+#cabecera{
+    position: relative;
+    float: left;
+    height: 15%;
+    width: 100%;
+    
+}
+
+#cabecera img{
+    position: relative;
+    float: left;
+    opacity: 0.6;
+    width: 100%;
+    height: 120px;
+}
+.texto{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    top: 25%;
+    left: 10%;
+    margin-left: 15%;
+    opacity: 1;
+    z-index: 1;
+    text-shadow: 0px 0px 10px gray;
+}
+
+/*Recién llegados*/
+
+.titulo {
+    height: 25%;
+    width: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-shadow: 0px 0px 10px black;
+    font-size: 60%;
+    
+}
+
+.centro{
+    padding: 20px;
+}
+
+.rect{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+#botoncaja{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+.boton{
+    text-decoration: none;
+    text-align: center;
+    padding: 1%;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 5%;
+    border-radius: 99px;
+    background-color: white;
+    font-size:15px;
+     
+ }
+
+
+/*lista*/
+
+#lista{
+    margin-left: 20%;
+}
+
+
+/*footer*/
+
+#footer{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+    
+#footer h2{
+    margin-top:5%;
+    text-align: center;    
+}
+    
+#footer hr{
+    margin-top: 3%;
+    width: 100%;
+}
+    
+    /* Iconos Awesome */
+.fa {
+     padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    }
+}
+
+
+  
