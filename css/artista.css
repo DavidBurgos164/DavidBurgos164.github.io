@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #13072e;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: Quicksand;
+    
+}
+
+hr{
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+#encabezado{
+    position: relative;
+    float: left;
+    height: 4%;
+    width: 100%;
+}
+
+/*Logo*/
+
+#logo{
+    width: 20%; /* Ajusta el tamaño del contenedor del logo */
+    height: 10px; /* Ajusta el tamaño del contenedor del logo */
+    padding-top: 15px;
+    padding-left: 23px;
+    position: relative;
+    float: left;
+}
+
+#logo img{
+    width: 100%;
+    height: 50px;
+}
+
+#logo a:hover{
+    background-color: none;
+}
+
+/*Menu*/
+
+#menu{
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top:10px;
+}
+
+#menu a{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 15px;
+
+}
+
+#menu a:hover{
+    text-shadow: none;
+    color: #fff;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+/*Novedades*/
+
+#cabecera{
+    position: relative;
+    float: left;
+    height: 25%;
+    width: 100%;
+    
+    
+}
+
+#cabecera img{
+    position: relative;
+    float: left;
+    opacity: 0.6;
+    width: 100%;
+    height: 300px;
+}
+.titulo{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    top: 30%;
+    left: 22%;
+    margin-left: 15%;
+    opacity: 1;
+    z-index: 1;
+    text-shadow: 0px 0px 10px gray;
+    
+}
+
+/* Imagenes */
+
+#imagenes{
+    position:relative;
+    float: left;
+    width: 20%;
+    height: 20%;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+
+#imagenes img{
+    width: 100%;
+    height: 320px;
+    margin-top: 20px;
+    border: solid 3px white;
+}
+
+
+#texto{
+    margin-top: 5%;
+    position: relative;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 60px;
+    width: 70%;
+    height: 35%;
+    padding-bottom: 5%;
+
+}
+
+button {
+    
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Arial, sans-serif;
+    color: #432291;
+    
+}
+button a{
+    text-decoration: none;
+    color: #432291;
+}
+
+
+
+#footer{
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer h2{
+    margin-top:5%;
+    text-align: center;    
+}
+
+#footer hr{
+    margin-top: 3%;
+    width: 100%;
+}
+
+/* Iconos Awesome */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*Instagram*/
+  .fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    color: white;
+  }
+
+  .fa-spotify{
+    color: white;
+    background-color: green;
+  }
+/*Pensado para el Samsung Galaxy S8+*/
+
+@media all and (max-width: 750px){
+    body{
+        background-color: #432291;
+        height: auto;
+        width: 100%;
+        color: white;
+        font-family: Quicksand;
+    }
+    
+   
+    #encabezado{
+        position: relative;
+        float: left;
+        height: 4%;
+        width: 100%;
+    }
+    
+    /*Logo*/
+    
+    #logo{
+        width: 30%; /* Ajusta el tamaño del contenedor del logo */
+        height: 10px; /* Ajusta el tamaño del contenedor del logo */
+        padding-top: 10px;
+        padding-left: 23px;
+        position: relative;
+        float: left;
+    }
+    
+    #logo img{
+        width: 100%;
+        height: 50px;
+    }
+    
+    #logo a:hover{
+        background-color: none;
+    }
+    
+    
+    /*Menu*/
+    
+    #menu{
+        width: 60%;
+        margin-left: 40%;
+    }
+    
+    #menu a{
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        padding-top: 10px;
+        font-size: 10px;
+    
+    }
+    
+    #menu a:hover{
+        text-shadow: none;
+        color: #fff;
+        background-color: purple;
+        border-radius: 20px;
+    }
+    
+    /*Novedades*/
+
+#cabecera{
+    position: relative;
+    float: left;
+    height: 15%;
+    width: 100%;
+    
+}
+
+#cabecera img{
+    position: relative;
+    float: left;
+    opacity: 0.6;
+    width: 100%;
+    height: 120px;
+}
+.titulo{
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    top: 25%;
+    left: 5%;
+    margin-left: 5%;
+    opacity: 1;
+    z-index: 1;
+    text-shadow: 0px 0px 10px gray;
+}
+#imagenes{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1px;
+
+}
+#texto{
+    font-size: 15px;
+    margin-left: 15%;
+}
+#texto h1{
+    font-size: 23px;
+}
+/* footer */
+    
+#footer{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+    
+#footer h2{
+    margin-top:5%;
+    text-align: center;    
+}
+    
+#footer hr{
+    margin-top: 3%;
+    width: 100%;
+}
+    
+    /* Iconos Awesome */
+.fa {
+     padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    }
+}
